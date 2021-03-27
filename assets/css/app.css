@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+body {
+    font-family: 'Nunito', Arial, sans-serif;
+}
+
+.content {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.content .imagem-content {
+    width: 100vw;
+    height: 100vh;
+    background: url('/images/paris-background.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.selection-item {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    align-items: center;
+}
+.itens a {
+    display: inline-block;
+    margin-right: 30px;
+}
+.itens a img {
+    width: 40px;
+}
+.input-item {
+    margin-top: 20px;
+}
+.input-item input {
+    width: 300px;
+    padding: 10px 20px;
+}
